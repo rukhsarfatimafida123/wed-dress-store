@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #eecda3;
+    background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
+    background: linear-gradient(to right, #eecda3, #ef629f);
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #2c2b30;
+}
+p{
+   color: #c5422b;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.categories{
+    margin: 70px 0;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #2c2b30;
+}
+.title:after{
+    content: '';
+    background: #f58f7c;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom:0 ;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+h3{
+    color: #f58f7c;
+    font-weight: normal;
+}
+.rating .fa{
+color: #f17964;
+}
+/* offer */
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 30px;
+}
+small{
+    color:#4f4f51 ;
+}
+.btn{
+    background: #2c2b30;
+    color: #f58f7c;
+}
+/* testimonial */
+.testimonial{
+padding-top: 100px;
+}
+.fa.fa-quote-left{
+    font-size:34px ;
+    color:#f58f7c
+}
+
+/* brands */
+.brands{
+    margin:100px auto ;
+    display: inline block;
+}
+/* footer */
+.footer{
+    background:#d6d6d6 ;
+    color: #2c2b30;
+    font-size:14px ;
+    padding: 60px 0 20px;
+    width: 100;
+}
+.footer p{
+    color: #2c2b30;
+}
+.footer h3{
+    color:rgb(12, 12, 11);
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width:250px ;
+    margin-bottom: 20px; 
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex:1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.app-logo{
+    margin-top:20px ;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #2c2b30;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+/* checkout */
+.bg {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: #eecda3;
+    background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
+    background: linear-gradient(to right, #eecda3, #ef629f);
+    background-size: 100% 100%;
+    background-position: top center;
+    margin: auto
+}
+
+.mainRow {
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+p {
+    margin: 0px
+}
+
+.desc {
+    background-color: #f0edeb;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 4%
+}
+
+.card-body {
+    padding: 0;
+    margin: 0;
+    margin-top: 10%
+}
+
+div.card.main {
+    margin: 0px !important
+}
+
+.card {
+    padding: 0 !important;
+    margin-top: 40px
+}
+
+.quantity,
+.shipping,
+.promocode,
+.subtotal,
+.cardAndExpire,
+.nameAndcvc {
+    margin: 5%;
+    color: #6c757d !important
+}
+
+.heading1 {
+    margin: 5%;
+    font-size: 25px
+}
+
+.heading2 {
+    margin: 5%;
+    font-size: 20px
+}
+
+.payment {
+    background-color: #f0edeb;
+    padding: 3px;
+    
+}
+
+.text1 {
+    color: black;
+    font-weight: 700
+}
+
+.card-footer {
+    background-color: black;
+    color: white
+}
+
+.purchaseLink {
+    text-decoration: none
+}
+
+.row1 {
+    font-size: 12px
+}
+
+.row2 {
+    font-weight: 600
+}
+
+.subRow {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 5%
+}
+
+p.cardAndExpireValue,
+p.nameAndcvcValue {
+    margin: 5%;
+    margin-bottom: 10%;
+    font-weight: 600
+}
+
+p.nameAndcvc,
+p.cardAndExpire {
+    margin-bottom: -10px
+}
+
+.total {
+    margin: 5%
+}
+
+.totalText {
+    font-weight: 700
+}
+
+.totalText2 {
+    font-weight: 700;
+    font-size: 30px
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 430px
+}
+.hover-pointer
+{
+    cursor: pointer;
+}

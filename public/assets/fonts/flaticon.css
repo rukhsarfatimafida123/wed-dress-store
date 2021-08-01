@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?04dcac7d89cbc3c1001aceb31e79c46e") format("truetype"),
+url("./flaticon.woff?04dcac7d89cbc3c1001aceb31e79c46e") format("woff"),
+url("./flaticon.woff2?04dcac7d89cbc3c1001aceb31e79c46e") format("woff2"),
+url("./flaticon.eot?04dcac7d89cbc3c1001aceb31e79c46e#iefix") format("embedded-opentype"),
+url("./flaticon.svg?04dcac7d89cbc3c1001aceb31e79c46e#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-responsive:before {
+    content: "\f106";
+}
+.flaticon-rocket-ship:before {
+    content: "\f107";
+}
+.flaticon-bar-chart:before {
+    content: "\f101";
+}
+.flaticon-bus-stop:before {
+    content: "\f102";
+}
+.flaticon-globe:before {
+    content: "\f103";
+}
+.flaticon-list:before {
+    content: "\f104";
+}
+.flaticon-responsive:before {
+    content: "\f105";
+}
+.flaticon-rocket-ship:before {
+    content: "\f106";
+}
+.flaticon-appointment:before {
+    content: "\f101";
+}
+.flaticon-bar-graph:before {
+    content: "\f102";
+}
+.flaticon-copy:before {
+    content: "\f103";
+}
+.flaticon-rocket-ship:before {
+    content: "\f104";
+}
+.flaticon-shopping-cart:before {
+    content: "\f105";
+}
+.flaticon-lorry:before {
+    content: "\f105";
+}
